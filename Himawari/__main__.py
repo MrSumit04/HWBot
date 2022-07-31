@@ -126,7 +126,7 @@ Haven't slept since: {}
 buttons = [
     [
         InlineKeyboardButton(
-            text="Summon Meow ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="Summon Me ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
@@ -287,12 +287,7 @@ def start(update: Update, context: CallbackContext):
                             url=f"https://telegram.dog/{UPDATES_CHANNEL}",
                         ),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            text="Alliance 🌐",
-                            url="https://telegram.dog/ViciousAlliance",
-                        )
-                    ],
+                    
                 ]
             ),
         )
