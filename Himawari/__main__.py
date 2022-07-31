@@ -106,11 +106,11 @@ def get_readable_time(seconds: int) -> str:
 HELP_MSG = "Click the button below to get help menu in your pm hihi~"
 START_MSG = "*Hie Onichwannnn~ UwU* I am well and alive ;)"
 
-HELP_IMG = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
-START_IMG = "https://telegra.ph/file/eb8617465e7a62650f862.jpg"
+HELP_IMG = "https://telegra.ph/file/c189ab604e127780bc350.jpg"
+START_IMG = "https://telegra.ph/file/774c5e5ff59e357cc7214.jpg"
 
 PM_START_TEXT = """
-  ⫸ [Himawari](https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg) ⫷
+  ⫸ [Yor Forger](https://telegra.ph/file/774c5e5ff59e357cc7214.jpg) ⫷
 Konnichiwa, I am {}
  
 I am an Anime themed group management bot with some fun extras ;)
@@ -131,9 +131,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="📓 Commands", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/ArshCypherZ/HWBot"
-        ),
+                ),
     ],
     [
         InlineKeyboardButton(
