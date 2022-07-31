@@ -542,7 +542,7 @@ WHITELIST_HANDLER = CommandHandler(("KAIZEN", "addwhitelist"), addwhitelist, run
 UNSUDO_HANDLER = CommandHandler(("removesudo", "rmbestfriend"), removesudo, run_async=True)
 UNSUPPORT_HANDLER = CommandHandler(("removesupport", "rmfriend"), removesupport, run_async=True)
 UNTIGER_HANDLER = CommandHandler(("rmclassmate"), removetiger)
-UNWHITELIST_HANDLER = CommandHandler(("removewhitelist", "rmKAIZENs"), removewhitelist, run_async=True)
+UNWHITELIST_HANDLER = CommandHandler(("removewhitelist", "rmKAIZEN"), removewhitelist, run_async=True)
 WHITELISTLIST_HANDLER = CommandHandler(["whitelistlist", "KAIZENS"], whitelistlist, run_async=True)
 TIGERLIST_HANDLER = CommandHandler(["classmates"], tigerlist, run_async=True)
 SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "friends"], supportlist, run_async=True)
